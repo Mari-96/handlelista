@@ -66,7 +66,7 @@ input, .button {
     display: block;
     font-size: 1.2em;
     margin: 0 auto 10px;
-    width: 350px;
+    width: 100%;
     padding: 8px;
     border-radius: 5px;
 }
@@ -102,4 +102,30 @@ a:hover {
 
 .red {
     color: tomato;
+}
+
+@media screen and (min-width: 0px) and (max-width: 550px){
+ main{
+   margin: 0px;
+   padding: 0px;
+   text-align: center;
+ }
+
+ ul{
+   margin: 0px;
+   padding: 0px;
+  text-align: center;
+ }
+
+ input{
+   margin: 0px;
+   padding: 0px;
+  text-align: center;
+ }
+
+ button{
+   margin: 0px;
+   padding: 0px;
+  text-align: center;
+ }
 }
