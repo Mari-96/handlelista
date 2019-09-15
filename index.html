@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Handleliste</title>
-    <link rel="stylesheet" href="style.css">
-      <script src="script.js" defer> </script>
-  </head>
-  <body>
-    <h1 id="tittel">Handlelista</h1>
-    <main>
-      <p id="varer">Varer:</p>
-      <ul id="liste">
-        <li id="første">Melk</li>
-        <li id="andre">ost</li>
-        <li id="tredje">brød</li>
-        <li id="fjerde">pølser</li>
-      </ul>
+    <head>
+        <meta charset="utf-8">
+        <title>Handleliste</title>
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
 
-      <input id="tekst-felt" type="text" placeholder="Skriv inn vare her..">
-      <button class="button" id="leggtil-knapp">Legg til</button>
-    </main>
-    <footer>
-      <p><a href="https://developer.mozilla.org">MDN</a></p>
-      <p><a href="http://www.utdannet.no">Utdannet.no</a></p>
-      <p><a href="#">Om siden</a></p>
-      <p><a href="http://www.google.com">Google</a></p>
-    </footer>
-
-  </body>
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <h1 id="tittel">Handleliste</h1>
+              <main>
+                <ul id="liste">
+                </ul>
+                <input id="tekst-felt" type="text" placeholder="Skriv inn vare her..." autofocus>
+                <button class="button" id="leggtil-knapp">Legg til</button>
+              </main>
+            </div>
+          </div><!--row-->
+        </div><!--container-->
+        <footer>
+            <p><a href="https://developer.mozilla.org">MDN</a></p>
+            <p><a href="http://www.utdannet.no">Utdannet.no</a></p>
+            <p><a href="#">Om siden</a></p>
+        </footer>
+    </body>
 </html>
